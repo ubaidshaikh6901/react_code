@@ -32,6 +32,12 @@ const ToDoApp = () => {
         placeholder="Add a task"
         value={task}
         onChange={(e) => setTask(e.target.value)}
+        style={{
+          padding: "10px",
+          fontSize: "16px",
+          border: "1px solid #ccc",
+          borderRadius: "5px",
+        }}
       />
 
       <button onClick={addTask}>Add</button>
